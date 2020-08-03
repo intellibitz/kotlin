@@ -17,9 +17,14 @@ val user = User("A", 1)
 val user2 = User("B", 2)
 val user3 = User("C", 3)
 val alluser = listOf(user3, user, user2)
+
+
 private fun funU() {
     println(alluser.sortedWith(User.NameComparator))
     println(user.hashCode() + user2.hashCode() + user3.hashCode())
+//destructuring declarations
+    val (x, y) = user
+    println("$x : $y")
 }
 
 //Note: if 'data' class is defined, then equals, hascode, tostring, copy and other are automatically generated !!
@@ -27,7 +32,7 @@ data class User(val name: String, val id: Int) {
     //    object defines a class and a variable of that class in a single statement
     object NameComparator : Comparator<User> {
         override fun compare(p1: User, p2: User): Int =
-            p1.name.compareTo(p2.name)
+                p1.name.compareTo(p2.name)
     }
 }
 
@@ -58,10 +63,10 @@ private fun funE() {
 }
 
 val order = Order(
-    listOf(
-        Item("Bread", 25.0F),
-        Item("Wine", 29.0F), Item("Water", 12.0F)
-    )
+        listOf(
+                Item("Bread", 25.0F),
+                Item("Wine", 29.0F), Item("Water", 12.0F)
+        )
 )
 
 private fun funO() {
@@ -109,15 +114,15 @@ enum class Color(private val rgb: Int) {
     fun containsRed() = (this.rgb and RED.rgb != 0)
 
     fun getColor(color: Color) =
-        when (color) {
-            BLUE -> "blue"
-            RED -> "red"
-        }
+            when (color) {
+                BLUE -> "blue"
+                RED -> "red"
+            }
 
     fun mix(c1: Color, c2: Color) =
-        when (setOf(c1, c2)) {
-            setOf(BLUE, RED) -> "valid color"
-            else -> "invalid color"
-        }
+            when (setOf(c1, c2)) {
+                setOf(BLUE, RED) -> "valid color"
+                else -> "invalid color"
+            }
 }
 

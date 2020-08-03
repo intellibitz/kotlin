@@ -14,22 +14,6 @@ fun funCset() {
     println("${cset.objectsAdded} objects were added, ${cset.size} remain")
 }
 
-// delegating classes using 'by'
-class CountingSet<T>(private val innerSet: MutableCollection<T> = HashSet()) : MutableCollection<T>
-// delegate using keyword 'by'
-by innerSet {
-    var objectsAdded = 0
-    override fun add(element: T): Boolean {
-        objectsAdded++
-        return innerSet.add(element)
-    }
-
-    override fun addAll(elements: Collection<T>): Boolean {
-        objectsAdded += elements.size
-        return innerSet.addAll(elements)
-    }
-}
-
 fun fun2() {
     println("${users.nickname} isSubscribed ${users.isSubscribed} ")
 //    object equality
@@ -147,5 +131,21 @@ class MutableStack<E>(vararg items: E) {
     fun isEmpty() = elements.isEmpty()
     private fun size() = elements.size
     override fun toString() = "MutableStack(${elements.joinToString()})" + size()
+}
+
+// delegating classes using 'by'
+class CountingSet<T>(private val innerSet: MutableCollection<T> = HashSet()) : MutableCollection<T>
+// delegate using keyword 'by'
+by innerSet {
+    var objectsAdded = 0
+    override fun add(element: T): Boolean {
+        objectsAdded++
+        return innerSet.add(element)
+    }
+
+    override fun addAll(elements: Collection<T>): Boolean {
+        objectsAdded += elements.size
+        return innerSet.addAll(elements)
+    }
 }
 
