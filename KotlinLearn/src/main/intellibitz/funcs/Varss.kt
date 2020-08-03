@@ -3,6 +3,7 @@ package funcs
 import xclass.Contact
 import xclass.Customer
 import xclass.MutableStack
+import java.time.LocalDate
 
 fun main() {
     println("$e, $s, $a, $b")
@@ -10,7 +11,14 @@ fun main() {
     funC()
     funS()
     funM()
+    (0..10).forEach { print(it) }
+    println(now.plusWeeks(1) in vac)
+    println("$now : $vac")
 }
+
+val now: LocalDate = LocalDate.now()
+val vac = now..now.plusDays(10)
+
 
 // Inferred types
 const val a = 2

@@ -7,5 +7,5 @@ val vac = now..now.plusDays(10)
 println(now.plusWeeks(1) in vac)
 println("$now : $vac")
 
-
+(0..10).forEach { print(it) }
 
