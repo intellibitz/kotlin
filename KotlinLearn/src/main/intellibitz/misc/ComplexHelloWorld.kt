@@ -1,7 +1,7 @@
 package misc
 
 fun main(args: Array<String>) {
-    println ("size: " + args.size)
+    println("size: " + args.size)
     greet {
         To.place
     }.print()

@@ -23,7 +23,7 @@ sealed class To {
 // Extensions, Unit
 fun String.print() = println(this)
 
-println ("size: " + args.size)
+println("size: " + args.size)
 greet {
     To.place
 }.print()

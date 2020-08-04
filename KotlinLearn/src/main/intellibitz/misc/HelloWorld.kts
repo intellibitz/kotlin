@@ -1,3 +1,3 @@
 package misc
 
-println ("Kotlin Script - Hello World")
+println("Kotlin Script - Hello World")

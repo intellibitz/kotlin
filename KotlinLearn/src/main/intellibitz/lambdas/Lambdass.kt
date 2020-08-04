@@ -7,6 +7,8 @@ Functional programming - the ability to treat functions as values.
 lambdas - are small chunks of code that can be passed to other functions.
 lambdas with receivers - body is executed in a different context than the surrounding code.
 
+a higher-order function is a function that takes another function as an argument or returns one.
+
 Lambda expressions and anonymous functions are 'function literals',
 i.e. functions that are not declared, but passed immediately as an expression. Consider the following example:
 
@@ -34,6 +36,62 @@ val sum = { x: Int, y: Int -> x + y }
 
 fun main() {
     l1()
+    ft()
+    fCA()
+    fFoo()
+}
+
+private fun fFoo() {
+    foo {}
+    foo { println("lambda foo as param") }
+//    uses anonymous function with expression body as param in place of a lambda expression
+    foo(fun() = println("anonymous function foo with expression body as param"))
+// anonymous functions are another syntactic form of lambda expressions
+    foo(fun() { println("anonymous function foo with block body as param") })
+}
+
+// nullable function type as param
+fun foo(callback: (() -> Unit)?) {
+    callback?.invoke()
+//    invokes the FunctionN interface defined by kotlin.. same as below
+/*
+    if (callback != null) {
+        callback()
+    }
+*/
+}
+
+// calling functions passed as arguments
+// declares a parameter of function type
+fun twoAndThree(operation: (Int, Int) -> Int) {
+//    calls the parameter of the function type
+    val result = operation(2, 3)
+    println("The result is $result")
+}
+
+private fun fCA() {
+//    param types can be inferred from function param
+    twoAndThree { a, b -> a + b }
+//    storing the lambda as function type, params type must be explicitly specified
+    val xTimesY = { x: Int, y: Int -> x * y }
+    twoAndThree(xTimesY)
+    println(xTimesY(3, 2))
+}
+
+//  function types
+//  ( ) -> Unit
+fun ft() {
+//    implicit, short form
+//    val action = { println(42) }
+//    explicit declaration
+    val action: () -> Unit = { println(42) }
+    println(action)
+//    function type with return null
+    val canReturnNull: () -> Int? = { null }
+    println(canReturnNull)
+//    function type itself can be nullable.. NOTE the brackets
+    val funOrNull: (() -> Int)? = null
+    println(funOrNull)
 }
 
 fun l1() {
