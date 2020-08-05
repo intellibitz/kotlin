@@ -5,23 +5,26 @@ plugins {
     kotlin("jvm") version "1.4.0-rc"
 }
 
+version = 0.1
+group = "intellibitz"
+
 application {
     // Define the main class for the application.
     mainClass.set("sample.AppKt")
+    applicationName = "KotlinLearn"
 }
 
 // if normal source directory convention is not followed, define custom sourcesets
 sourceSets.main {
-    java.srcDir("src/main/intellibitz")
+    java.srcDirs(listOf("src/main/intellibitz"))
+    resources.srcDirs(listOf("src/main/resources"))
 }
 sourceSets.test {
-    java.srcDir("src/test/intellibitz")
+    java.srcDirs(listOf("src/test/intellibitz"))
+    resources.srcDirs(listOf("src/test/resources"))
 }
 
 repositories {
-    // Use jcenter for resolving dependencies.
-    // You can declare any Maven/Ivy/file repository here.
-    jcenter()
     mavenCentral()
     maven("https://dl.bintray.com/kotlin/kotlin-eap")
     maven("https://kotlin.bintray.com/kotlinx")
