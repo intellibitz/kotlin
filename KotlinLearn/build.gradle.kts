@@ -36,6 +36,8 @@ dependencies {
     implementation(kotlin("stdlib-jdk8"))
     // Align versions of all Kotlin components
     implementation(kotlin("bom"))
+    implementation(kotlin("kapt"))
+    implementation(kotlin("reflect"))
     // Use the Kotlin test library.
     testImplementation(kotlin("test"))
     // Use the Kotlin JUnit integration.
