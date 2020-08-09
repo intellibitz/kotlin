@@ -66,7 +66,7 @@ fun <T> Collection<T>.joinToString(sep: String = ", ", prefix: String = "", post
 
 //extension functions
 fun Collection<String>.join(sep: String = ", ", prefix: String = "", postfix: String = "") =
-    joinToString(sep, prefix, postfix)
+        joinToString(sep, prefix, postfix)
 
 //    expression bodies in function
 fun multiply(x: Int, y: Int) = x * y
@@ -75,12 +75,15 @@ fun printMessage(message: String) {
     println(message)
 }
 
-// returning functions
+// stores returned function
+val func = operation()
+
+// the function to return
 fun square(x: Int): Int {
     return x * x
 }
 
-val func = operation()
+// returning functions
 fun operation(): (Int) -> Int {
     return ::square
 }
