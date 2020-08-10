@@ -35,6 +35,7 @@ dependencies {
     implementation(kotlin("script-runtime"))
     // Use the Kotlin JDK 8 standard library.
     implementation(kotlin("stdlib-jdk8"))
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.8")
     // Align versions of all Kotlin components
     implementation(kotlin("bom"))
     implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:1.4.0-rc")
