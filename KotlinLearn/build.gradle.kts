@@ -4,6 +4,7 @@ plugins {
     // Apply the Kotlin JVM plugin to add support for Kotlin.
     kotlin("jvm") version "1.4.0-rc"
     kotlin("kapt") version "1.4.0-rc"
+    id("org.jetbrains.dokka") version "1.4.0-rc"
 }
 
 version = 0.1
