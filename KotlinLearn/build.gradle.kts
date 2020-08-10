@@ -5,7 +5,15 @@ plugins {
     kotlin("jvm") version "1.4.0-rc"
     kotlin("kapt") version "1.4.0-rc"
     id("org.jetbrains.dokka") version "1.4.0-rc"
+    kotlin("plugin.serialization") version "1.4.0-rc"
 }
+repositories {
+    mavenCentral()
+    maven("https://dl.bintray.com/kotlin/kotlin-eap")
+    maven("https://kotlin.bintray.com/kotlinx")
+    maven("https://dl.bintray.com/kotlin/dokka")
+}
+
 
 version = 0.1
 group = "intellibitz"
@@ -25,13 +33,9 @@ sourceSets.test {
     java.srcDirs(listOf("src/test/intellibitz"))
     resources.srcDirs(listOf("src/test/resources"))
 }
-
-repositories {
-    mavenCentral()
-    maven("https://dl.bintray.com/kotlin/kotlin-eap")
-    maven("https://kotlin.bintray.com/kotlinx")
+tasks.dokkaHtml {
+    outputDirectory = "$buildDir/dokka"
 }
-
 dependencies {
     implementation(kotlin("script-runtime"))
     // Use the Kotlin JDK 8 standard library.
@@ -40,6 +44,8 @@ dependencies {
     // Align versions of all Kotlin components
     implementation(kotlin("bom"))
     implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:1.4.0-rc")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-runtime:0.20.0") // JVM dependency
+    dokkaHtmlPlugin("org.jetbrains.dokka:kotlin-as-java-plugin:1.4.0-rc")
     implementation(kotlin("reflect"))
     // Use the Kotlin test library.
     testImplementation(kotlin("test"))
