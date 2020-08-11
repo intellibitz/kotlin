@@ -1,3 +1,6 @@
+group = "intellibitz"
+version = 0.1
+
 plugins {
     // Apply the application plugin to add support for building a CLI application.
     application
@@ -13,10 +16,6 @@ repositories {
     maven("https://kotlin.bintray.com/kotlinx")
     maven("https://dl.bintray.com/kotlin/dokka")
 }
-
-
-version = 0.1
-group = "intellibitz"
 
 application {
     // Define the main class for the application.
@@ -36,6 +35,11 @@ sourceSets.test {
 tasks.dokkaHtml {
     outputDirectory = "$buildDir/dokka"
 }
+/*
+tasks.withType<Test> {
+    useJUnitPlatform()
+}
+*/
 dependencies {
     implementation(kotlin("script-runtime"))
     // Use the Kotlin JDK 8 standard library.
@@ -50,5 +54,8 @@ dependencies {
     // Use the Kotlin test library.
     testImplementation(kotlin("test"))
     // Use the Kotlin JUnit integration.
-    testImplementation(kotlin("test-junit"))
+    testImplementation(kotlin("test-junit5"))
+//    testImplementation("io.kotest:kotest-runner-junit5-jvm:4.1.0") // for kotest framework
+//    testImplementation("io.kotest:kotest-assertions-core-jvm:4.1.0") // for kotest core jvm assertions
+//    testImplementation("io.kotest:kotest-property-jvm:4.1.0") // for kotest property test
 }
