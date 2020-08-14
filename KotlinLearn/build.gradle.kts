@@ -5,11 +5,23 @@ plugins {
     // Apply the application plugin to add support for building a CLI application.
     application
     // Apply the Kotlin JVM plugin to add support for Kotlin.
-    kotlin("jvm") version "1.4.0-rc"
+//    kotlin("jvm") version "1.4.0-rc"
+    kotlin("multiplatform") version "1.4.0-rc"
+//    kotlin("js") version "1.4.0-rc"
     kotlin("kapt") version "1.4.0-rc"
-    id("org.jetbrains.dokka") version "1.4.0-rc"
     kotlin("plugin.serialization") version "1.4.0-rc"
+    id("org.jetbrains.dokka") version "1.4.0-rc"
 }
+
+kotlin{
+    jvm{
+        withJava()
+    }
+    js {
+        browser()
+    }
+}
+
 repositories {
     mavenCentral()
     maven("https://dl.bintray.com/kotlin/kotlin-eap")
@@ -59,3 +71,12 @@ dependencies {
 //    testImplementation("io.kotest:kotest-assertions-core-jvm:4.1.0") // for kotest core jvm assertions
 //    testImplementation("io.kotest:kotest-property-jvm:4.1.0") // for kotest property test
 }
+/*
+val compileKotlin: KotlinCompile by tasks
+compileKotlin.kotlinOptions {
+    jvmTarget = "1.8"
+}
+val compileTestKotlin: KotlinCompile by tasks
+compileTestKotlin.kotlinOptions {
+    jvmTarget = "1.8"
+}*/
