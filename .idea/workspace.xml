@@ -5,19 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ade2a56-6567-4748-8d18-a5aac64f1289" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/mpfsweb_js_1_0_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/mpfsweb_js_1_0_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/mpfsweb_jvm_1_0_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/mpfsweb_jvm_1_0_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/androidApp/mpmobile.androidApp.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/mpfsweb.jvmMain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/mpfsweb.jvmMain.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/mpfsweb.jvmTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/mpfsweb.jvmTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/mpmobile.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/shared/mpmobile.shared.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/shared/mpmobile.shared.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsfront/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/jsfront/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mpfsweb/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/mpfsweb/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mpfsweb/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/mpfsweb/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mpfsweb/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/mpfsweb/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mpfsweb/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/mpfsweb/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsfront/.gradle/6.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/jsfront/.gradle/6.6/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsfront/.gradle/6.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/jsfront/.gradle/6.6/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsfront/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/jsfront/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsfront/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/jsfront/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsfront/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/jsfront/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsfront/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/jsfront/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsfront/src/main/kotlin/client.kt" beforeDir="false" afterPath="$PROJECT_DIR$/jsfront/src/main/kotlin/client.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +59,41 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jsfront" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jsfront" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jsfront" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jsfront" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jsfront" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jsfront" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -100,7 +129,7 @@
     <property name="project.structure.side.proportion" value="0.17356321" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.jsfront [run]">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -113,6 +142,63 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="jsfront [browserTest]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/jsfront" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="browserTest" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="jsfront [check]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/jsfront" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="check" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="jsfront [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/jsfront" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
@@ -152,6 +238,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.jsfront [run]" />
+        <item itemvalue="Gradle.jsfront [browserTest]" />
+        <item itemvalue="Gradle.jsfront [check]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -183,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597486479599</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added modules.">
+      <created>1597487014446</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597487014446</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -197,10 +297,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="163" y="0" key="#Project_Structure/0.0.1366.738@0.0.1366.738" timestamp="1597483939337" />
-    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1597486477377">
+    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1597487011863">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1597486477377" />
+    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1597487011863" />
     <state x="92" y="92" width="1182" height="554" key="DiffContextDialog" timestamp="1597485401054">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -209,6 +309,26 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="81" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1597484521705" />
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1597487639774">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1597487639774" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1597487639774">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1597487639774" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1597487639774">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1597487639774" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1597487639774">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1597487639774" />
+    <state x="263" y="114" key="IDE.errors.dialog" timestamp="1597487485586">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="263" y="114" key="IDE.errors.dialog/0.0.1366.738@0.0.1366.738" timestamp="1597487485586" />
     <state x="350" y="79" key="NewModule_or_Project.wizard" timestamp="1597483924016">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -217,22 +337,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1597486112763" />
-    <state x="275" y="93" key="Vcs.Push.Dialog.v2" timestamp="1597486481475">
+    <state x="275" y="93" key="Vcs.Push.Dialog.v2" timestamp="1597487016289">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="93" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1597486481475" />
+    <state x="275" y="93" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1597487016289" />
     <state x="438" y="105" key="VcsDiffUtil.ChangesDialog" timestamp="1597485124021">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="438" y="105" key="VcsDiffUtil.ChangesDialog/0.0.1366.738@0.0.1366.738" timestamp="1597485124020" />
-    <state x="504" y="285" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597486492021">
+    <state x="504" y="285" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597487026900">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="504" y="285" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1597486492021" />
-    <state x="441" y="136" width="581" height="498" key="find.popup" timestamp="1597486912288">
+    <state x="504" y="285" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1597487026900" />
+    <state x="441" y="136" width="581" height="498" key="find.popup" timestamp="1597487113156">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="441" y="136" width="581" height="498" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1597486912288" />
+    <state x="441" y="136" width="581" height="498" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1597487113156" />
     <state x="300" y="0" key="new project wizard" timestamp="1597486071202">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
