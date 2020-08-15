@@ -36,7 +36,7 @@ kotlin {
         }
         val androidMain by getting {
             dependencies {
-                implementation("androidx.core:core-ktx:1.2.0")
+                implementation("androidx.core:core-ktx:1.3.1")
             }
         }
         val androidTest by getting
