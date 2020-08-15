@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ade2a56-6567-4748-8d18-a5aac64f1289" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsfront/.gradle/6.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/jsfront/.gradle/6.6/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsfront/.gradle/6.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/jsfront/.gradle/6.6/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsfront/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/jsfront/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsfront/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/jsfront/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsfront/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/jsfront/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsfront/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/jsfront/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsfront/src/main/kotlin/client.kt" beforeDir="false" afterPath="$PROJECT_DIR$/jsfront/src/main/kotlin/client.kt" afterDir="false" />
-    </list>
+    <list default="true" id="0ade2a56-6567-4748-8d18-a5aac64f1289" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -283,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597487014446</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added modules.">
+      <created>1597487973774</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597487973774</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -297,10 +295,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="163" y="0" key="#Project_Structure/0.0.1366.738@0.0.1366.738" timestamp="1597483939337" />
-    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1597487011863">
+    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1597487971241">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1597487011863" />
+    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1597487971241" />
     <state x="92" y="92" width="1182" height="554" key="DiffContextDialog" timestamp="1597485401054">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -309,22 +307,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="81" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1597484521705" />
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1597487639774">
+    <state width="548" height="610" key="GridCell.Tab.0.bottom" timestamp="1597487902513">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1597487639774" />
-    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1597487639774">
+    <state width="548" height="610" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1597487902513" />
+    <state width="548" height="610" key="GridCell.Tab.0.center" timestamp="1597487902513">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1597487639774" />
-    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1597487639774">
+    <state width="548" height="610" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1597487902513" />
+    <state width="548" height="610" key="GridCell.Tab.0.left" timestamp="1597487902513">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1597487639774" />
-    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1597487639774">
+    <state width="548" height="610" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1597487902513" />
+    <state width="548" height="610" key="GridCell.Tab.0.right" timestamp="1597487902513">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1597487639774" />
+    <state width="548" height="610" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1597487902513" />
     <state x="263" y="114" key="IDE.errors.dialog" timestamp="1597487485586">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -337,18 +335,18 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1597486112763" />
-    <state x="275" y="93" key="Vcs.Push.Dialog.v2" timestamp="1597487016289">
+    <state x="275" y="93" key="Vcs.Push.Dialog.v2" timestamp="1597487993817">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="93" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1597487016289" />
+    <state x="275" y="93" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1597487993817" />
     <state x="438" y="105" key="VcsDiffUtil.ChangesDialog" timestamp="1597485124021">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="438" y="105" key="VcsDiffUtil.ChangesDialog/0.0.1366.738@0.0.1366.738" timestamp="1597485124020" />
-    <state x="504" y="285" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597487026900">
+    <state x="504" y="285" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597487999715">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="504" y="285" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1597487026900" />
+    <state x="504" y="285" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1597487999715" />
     <state x="441" y="136" width="581" height="498" key="find.popup" timestamp="1597487113156">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
