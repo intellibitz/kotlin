@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="KotlinLearn-jvm-0.1">
-    <output-path>$PROJECT_DIR$/KotlinLearn/build/libs</output-path>
-    <root id="archive" name="KotlinLearn-jvm-0.1.jar">
-      <element id="module-output" name="KotlinLearn.jvmMain" />
-    </root>
-  </artifact>
-</component>

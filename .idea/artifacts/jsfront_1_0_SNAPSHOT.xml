@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="jsfront-1.0-SNAPSHOT">
+    <output-path>F:\REPOS\github\kotlin\jsfront\build\libs</output-path>
+    <root id="archive" name="jsfront-1.0-SNAPSHOT.jar">
+      <element id="module-output" name="jsfront.main" />
+    </root>
+  </artifact>
+</component>
