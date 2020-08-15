@@ -5,14 +5,15 @@ plugins {
     // Apply the application plugin to add support for building a CLI application.
     application
     // Apply the Kotlin JVM plugin to add support for Kotlin.
-//    kotlin("jvm") version "1.4.0-rc"
-    kotlin("multiplatform") version "1.4.0-rc"
+    kotlin("jvm") version "1.4.0-rc"
+//    kotlin("multiplatform") version "1.4.0-rc"
 //    kotlin("js") version "1.4.0-rc"
     kotlin("kapt") version "1.4.0-rc"
     kotlin("plugin.serialization") version "1.4.0-rc"
     id("org.jetbrains.dokka") version "1.4.0-rc"
 }
 
+/*
 kotlin{
     jvm{
         withJava()
@@ -21,12 +22,15 @@ kotlin{
         browser()
     }
 }
+*/
 
 repositories {
     mavenCentral()
+    jcenter()
     maven("https://dl.bintray.com/kotlin/kotlin-eap")
     maven("https://kotlin.bintray.com/kotlinx")
     maven("https://dl.bintray.com/kotlin/dokka")
+    maven("https://kotlin.bintray.com/kotlin-js-wrappers/")
 }
 
 application {
@@ -53,18 +57,18 @@ tasks.withType<Test> {
 }
 */
 dependencies {
-    implementation(kotlin("script-runtime"))
     // Use the Kotlin JDK 8 standard library.
     implementation(kotlin("stdlib-jdk8"))
     implementation(kotlin("stdlib-common"))
     implementation(kotlin("stdlib-js"))
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.8")
+    implementation(kotlin("script-runtime"))
+    implementation(kotlin("reflect"))
     // Align versions of all Kotlin components
     implementation(kotlin("bom"))
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.8")
     implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:1.4.0-rc")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-runtime:0.20.0") // JVM dependency
     dokkaHtmlPlugin("org.jetbrains.dokka:kotlin-as-java-plugin:1.4.0-rc")
-    implementation(kotlin("reflect"))
     // Use the Kotlin test library.
     testImplementation(kotlin("test"))
     // Use the Kotlin JUnit integration.

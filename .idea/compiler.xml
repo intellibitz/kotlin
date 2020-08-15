@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel target="14" />
+    <bytecodeTargetLevel target="14">
+      <module name="KotlinLearn.commonMain" target="1.6" />
+      <module name="KotlinLearn.commonTest" target="1.6" />
+      <module name="KotlinLearn.jvmMain" target="1.6" />
+      <module name="KotlinLearn.jvmTest" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
 </project>
