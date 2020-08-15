@@ -5,123 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ade2a56-6567-4748-8d18-a5aac64f1289" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/jsfront_1_0_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/mpapp_jvm_1_0_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/mpfsweb_js_1_0_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/mpfsweb_jvm_1_0_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/mplib_js_1_0_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/mplib_jvm_1_0_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_0_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_0_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_1_1_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_3_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_ktx_1_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_ktx_1_3_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_0_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_android_extensions_runtime_1_4_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_4_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_annotations_common_1_4_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_common_1_4_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/jsfront.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/jsfront.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/mpapp.commonMain.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/mpapp.commonTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/mpapp.jvmMain.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/mpapp.jvmTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/mpfsweb.commonMain.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/mpfsweb.commonTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/mpfsweb.jsMain.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/mpfsweb.jsTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/mpfsweb.jvmMain.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/mpfsweb.jvmTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/mplib.commonMain.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/mplib.commonTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/mplib.jsMain.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/mplib.jsTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/mplib.jvmMain.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/mplib.jvmTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/mplib.nativeMain.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/mplib.nativeTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/shared/mpmobile.shared.commonMain.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/shared/mpmobile.shared.commonTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/shared/mpmobile.shared.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/shared/mpmobile.shared.iosMain.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/shared/mpmobile.shared.iosTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsfront/.idea/modules/jsfront.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsfront/.idea/modules/jsfront.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mpapp/.idea/modules/mpapp.commonMain.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mpapp/.idea/modules/mpapp.commonTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mpapp/.idea/modules/mpapp.jvmMain.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mpapp/.idea/modules/mpapp.jvmTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mpfsweb/.idea/modules/mpfsweb.commonMain.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mpfsweb/.idea/modules/mpfsweb.commonTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mpfsweb/.idea/modules/mpfsweb.jsMain.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mpfsweb/.idea/modules/mpfsweb.jsTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mpfsweb/.idea/modules/mpfsweb.jvmMain.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mpfsweb/.idea/modules/mpfsweb.jvmTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mplib/.idea/modules/mplib.commonMain.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mplib/.idea/modules/mplib.commonTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mplib/.idea/modules/mplib.jsMain.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mplib/.idea/modules/mplib.jsTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mplib/.idea/modules/mplib.jvmMain.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mplib/.idea/modules/mplib.jvmTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mplib/.idea/modules/mplib.nativeMain.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mplib/.idea/modules/mplib.nativeTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mpmobile/.idea/modules/androidApp/mpmobile.androidApp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mpmobile/.idea/modules/mpmobile.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mpmobile/.idea/modules/shared/mpmobile.shared.commonMain.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mpmobile/.idea/modules/shared/mpmobile.shared.commonTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mpmobile/.idea/modules/shared/mpmobile.shared.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mpmobile/.idea/modules/shared/mpmobile.shared.iosMain.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mpmobile/.idea/modules/shared/mpmobile.shared.iosTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mpmoblib/.idea/modules/mpmoblib.commonMain.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mpmoblib/.idea/modules/mpmoblib.commonTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mpmoblib/.idea/modules/mpmoblib.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mpmoblib/.idea/modules/mpmoblib.iosMain.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mpmoblib/.idea/modules/mpmoblib.iosTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mpnative/.idea/modules/mpnative.commonMain.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mpnative/.idea/modules/mpnative.commonTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mpnative/.idea/modules/mpnative.nativeMain.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mpnative/.idea/modules/mpnative.nativeTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/$CACHE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/KotlinLearn_js_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/KotlinLearn_jvm_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlin.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpmobile/shared/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/mpmobile/shared/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,13 +152,35 @@
       <option name="presentableId" value="Default" />
       <updated>1597483874022</updated>
     </task>
+    <task id="LOCAL-00001" summary="added modules.">
+      <created>1597484678808</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597484678808</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="added modules." />
+    <option name="LAST_COMMIT_MESSAGE" value="added modules." />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1597483939337">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="163" y="0" key="#Project_Structure/0.0.1366.738@0.0.1366.738" timestamp="1597483939337" />
+    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1597484660067">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1597484660067" />
+    <state x="92" y="92" width="1182" height="554" key="DiffContextDialog" timestamp="1597485401054">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="92" y="92" width="1182" height="554" key="DiffContextDialog/0.0.1366.738@0.0.1366.738" timestamp="1597485401054" />
     <state x="463" y="81" key="FileChooserDialogImpl" timestamp="1597484521705">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -281,9 +189,29 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="350" y="79" key="NewModule_or_Project.wizard/0.0.1366.738@0.0.1366.738" timestamp="1597483924016" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1597484525576">
+    <state x="163" y="0" key="SettingsEditor" timestamp="1597486112763">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1597484525576" />
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1597486112763" />
+    <state x="275" y="93" key="Vcs.Push.Dialog.v2" timestamp="1597484682476">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="93" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1597484682476" />
+    <state x="438" y="105" key="VcsDiffUtil.ChangesDialog" timestamp="1597485124021">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="438" y="105" key="VcsDiffUtil.ChangesDialog/0.0.1366.738@0.0.1366.738" timestamp="1597485124020" />
+    <state x="504" y="285" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597485130803">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="504" y="285" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1597485130803" />
+    <state x="392" y="120" width="581" height="498" key="find.popup" timestamp="1597486235567">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="392" y="120" width="581" height="498" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1597486235567" />
+    <state x="300" y="0" key="new project wizard" timestamp="1597486071202">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="300" y="0" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1597486071202" />
   </component>
 </project>

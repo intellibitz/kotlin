@@ -5,9 +5,9 @@
       <configuration version="3" platform="Native (ios_x64) " allPlatforms="Native []/Native [ios_x64]" useProjectSettings="false" isTestModule="true" externalProjectId=":shared">
         <dependsOnModuleNames>:shared:commonTest</dependsOnModuleNames>
         <sourceSets>
-          <sourceSet>mpmobile.shared.commonTest</sourceSet>
           <sourceSet>mpmobile.shared.commonMain</sourceSet>
           <sourceSet>mpmobile.shared.iosMain</sourceSet>
+          <sourceSet>mpmobile.shared.commonTest</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <compilerSettings />
