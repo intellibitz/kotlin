@@ -5,11 +5,11 @@ plugins {
     // Apply the application plugin to add support for building a CLI application.
     application
     // Apply the Kotlin JVM plugin to add support for Kotlin.
-    kotlin("jvm") version "1.4.0-rc"
-//    kotlin("multiplatform") version "1.4.0-rc"
-//    kotlin("js") version "1.4.0-rc"
-    kotlin("kapt") version "1.4.0-rc"
-    kotlin("plugin.serialization") version "1.4.0-rc"
+    kotlin("jvm") version "1.4.0"
+//    kotlin("multiplatform") version "1.4.0"
+//    kotlin("js") version "1.4.0"
+    kotlin("kapt") version "1.4.0"
+    kotlin("plugin.serialization") version "1.4.0"
     id("org.jetbrains.dokka") version "1.4.0-rc"
 }
 
@@ -66,7 +66,7 @@ dependencies {
     // Align versions of all Kotlin components
     implementation(kotlin("bom"))
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.8")
-    implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:1.4.0-rc")
+    implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:1.4.0")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-runtime:0.20.0") // JVM dependency
     dokkaHtmlPlugin("org.jetbrains.dokka:kotlin-as-java-plugin:1.4.0-rc")
     // Use the Kotlin test library.

@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="KotlinLearn-js-0.1">
-    <output-path>F:\REPOS\github\kotlin\KotlinLearn\build\libs</output-path>
+    <output-path>$PROJECT_DIR$/KotlinLearn/build/libs</output-path>
     <root id="archive" name="KotlinLearn-js-0.1.jar">
       <element id="module-output" name="KotlinLearn.jsMain" />
     </root>
