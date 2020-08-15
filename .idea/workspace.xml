@@ -5,10 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ade2a56-6567-4748-8d18-a5aac64f1289" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/androidApp/mpmobile.androidApp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/mpmobile.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/mpfsweb_js_1_0_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/mpfsweb_js_1_0_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/mpfsweb_jvm_1_0_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/mpfsweb_jvm_1_0_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/androidApp/mpmobile.androidApp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/mpfsweb.jvmMain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/mpfsweb.jvmMain.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/mpfsweb.jvmTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/mpfsweb.jvmTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/mpmobile.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/shared/mpmobile.shared.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/shared/mpmobile.shared.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mpmobile/shared/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/mpmobile/shared/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsfront/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/jsfront/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpfsweb/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/mpfsweb/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpfsweb/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/mpfsweb/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpfsweb/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/mpfsweb/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpfsweb/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/mpfsweb/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597486312429</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added modules.">
+      <created>1597486479599</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597486479599</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -181,10 +197,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="163" y="0" key="#Project_Structure/0.0.1366.738@0.0.1366.738" timestamp="1597483939337" />
-    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1597486310045">
+    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1597486477377">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1597486310045" />
+    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1597486477377" />
     <state x="92" y="92" width="1182" height="554" key="DiffContextDialog" timestamp="1597485401054">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -201,22 +217,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1597486112763" />
-    <state x="275" y="93" key="Vcs.Push.Dialog.v2" timestamp="1597486314790">
+    <state x="275" y="93" key="Vcs.Push.Dialog.v2" timestamp="1597486481475">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="93" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1597486314790" />
+    <state x="275" y="93" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1597486481475" />
     <state x="438" y="105" key="VcsDiffUtil.ChangesDialog" timestamp="1597485124021">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="438" y="105" key="VcsDiffUtil.ChangesDialog/0.0.1366.738@0.0.1366.738" timestamp="1597485124020" />
-    <state x="504" y="285" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597486324377">
+    <state x="504" y="285" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597486492021">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="504" y="285" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1597486324377" />
-    <state x="392" y="120" width="581" height="498" key="find.popup" timestamp="1597486425757">
+    <state x="504" y="285" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1597486492021" />
+    <state x="441" y="136" width="581" height="498" key="find.popup" timestamp="1597486912288">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="392" y="120" width="581" height="498" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1597486425757" />
+    <state x="441" y="136" width="581" height="498" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1597486912288" />
     <state x="300" y="0" key="new project wizard" timestamp="1597486071202">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
