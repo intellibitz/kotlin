@@ -65,9 +65,9 @@ dependencies {
     implementation(kotlin("reflect"))
     // Align versions of all Kotlin components
     implementation(kotlin("bom"))
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.8")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.9")
     implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:1.4.0")
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-runtime:0.20.0") // JVM dependency
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-runtime:1.0.0-rc") // JVM dependency
     dokkaHtmlPlugin("org.jetbrains.dokka:kotlin-as-java-plugin:1.4.0-rc")
     // Use the Kotlin test library.
     testImplementation(kotlin("test"))
