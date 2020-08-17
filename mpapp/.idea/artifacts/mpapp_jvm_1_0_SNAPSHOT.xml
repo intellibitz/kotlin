@@ -1,6 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="mpapp-jvm-1.0-SNAPSHOT">
-    <output-path>F:\REPOS\github\kotlin\mpapp\build\libs</output-path>
-    <root id="archive" name="mpapp-jvm-1.0-SNAPSHOT.jar" />
-  </artifact>
-</component>
