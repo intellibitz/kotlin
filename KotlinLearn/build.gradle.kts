@@ -8,9 +8,9 @@ plugins {
     kotlin("jvm") version "1.4.0"
 //    kotlin("multiplatform") version "1.4.0"
 //    kotlin("js") version "1.4.0"
-    kotlin("kapt") version "1.4.0"
-    kotlin("plugin.serialization") version "1.4.0"
-    id("org.jetbrains.dokka") version "1.4.0-rc"
+//    kotlin("kapt") version "1.4.0"
+//    kotlin("plugin.serialization") version "1.4.0"
+//    id("org.jetbrains.dokka") version "1.4.0-rc"
 }
 
 /*
@@ -48,9 +48,11 @@ sourceSets.test {
     java.srcDirs(listOf("src/test/intellibitz"))
     resources.srcDirs(listOf("src/test/resources"))
 }
+/*
 tasks.dokkaHtml {
     outputDirectory = "$buildDir/dokka"
 }
+*/
 /*
 tasks.withType<Test> {
     useJUnitPlatform()
@@ -60,19 +62,19 @@ dependencies {
     // Use the Kotlin JDK 8 standard library.
     implementation(kotlin("stdlib-jdk8"))
     implementation(kotlin("stdlib-common"))
-    implementation(kotlin("stdlib-js"))
+//    implementation(kotlin("stdlib-js"))
     implementation(kotlin("script-runtime"))
-    implementation(kotlin("reflect"))
+//    implementation(kotlin("reflect"))
     // Align versions of all Kotlin components
-    implementation(kotlin("bom"))
+//    implementation(kotlin("bom"))
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.9")
-    implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:1.4.0")
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-runtime:1.0.0-rc") // JVM dependency
-    dokkaHtmlPlugin("org.jetbrains.dokka:kotlin-as-java-plugin:1.4.0-rc")
+//    implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:1.4.0")
+//    implementation("org.jetbrains.kotlinx:kotlinx-serialization-runtime:1.0.0-rc") // JVM dependency
+//    dokkaHtmlPlugin("org.jetbrains.dokka:kotlin-as-java-plugin:1.4.0-rc")
     // Use the Kotlin test library.
     testImplementation(kotlin("test"))
     // Use the Kotlin JUnit integration.
-    testImplementation(kotlin("test-junit5"))
+    testImplementation(kotlin("test-junit"))
 //    testImplementation("io.kotest:kotest-runner-junit5-jvm:4.1.0") // for kotest framework
 //    testImplementation("io.kotest:kotest-assertions-core-jvm:4.1.0") // for kotest core jvm assertions
 //    testImplementation("io.kotest:kotest-property-jvm:4.1.0") // for kotest property test
