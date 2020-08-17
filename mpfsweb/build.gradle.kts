@@ -59,7 +59,7 @@ kotlin {
             dependencies {
                 implementation("io.ktor:ktor-server-netty:1.3.2")
                 implementation("io.ktor:ktor-html-builder:1.3.2")
-                implementation("org.jetbrains.kotlinx:kotlinx-html-jvm:0.7.1")
+                implementation("org.jetbrains.kotlinx:kotlinx-html-jvm:0.7.2")
             }
         }
         val jvmTest by getting {
@@ -69,7 +69,7 @@ kotlin {
         }
         val jsMain by getting {
             dependencies {
-                implementation("org.jetbrains.kotlinx:kotlinx-html-js:0.7.1")
+                implementation("org.jetbrains.kotlinx:kotlinx-html-js:0.7.2")
                 implementation("org.jetbrains:kotlin-react:16.13.1-pre.109-kotlin-1.4.0-rc")
                 implementation("org.jetbrains:kotlin-react-dom:16.13.1-pre.109-kotlin-1.4.0-rc")
                 implementation("org.jetbrains:kotlin-styled:1.0.0-pre.94-kotlin-1.3.70")

@@ -17,7 +17,7 @@ repositories {
 dependencies {
     implementation(project(":shared"))
     testImplementation(kotlin("test-js"))
-    implementation("org.jetbrains.kotlinx:kotlinx-html-js:0.7.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-html-js:0.7.2")
 }
 kotlin {
     js {

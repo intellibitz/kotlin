@@ -19,6 +19,7 @@ pluginManagement {
 rootProject.name = "multiplatform"
 
 include(":shared")
+include(":server")
 include(":app")
 include(":browser")
 include(":console")
