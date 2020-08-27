@@ -22,8 +22,8 @@ repositories {
 }
 dependencies {
     implementation(project(":shared"))
-    implementation("io.ktor:ktor-server-netty:1.3.2")
-    implementation("io.ktor:ktor-html-builder:1.3.2")
+    implementation("io.ktor:ktor-server-jetty:1.4.0")
+    implementation("io.ktor:ktor-html-builder:1.4.0")
     implementation("org.jetbrains.kotlinx:kotlinx-html-jvm:0.7.2")
 }
 tasks.withType<KotlinCompile> {

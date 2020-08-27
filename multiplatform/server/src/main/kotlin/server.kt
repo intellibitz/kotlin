@@ -4,7 +4,7 @@ import io.ktor.http.HttpStatusCode
 import io.ktor.routing.get
 import io.ktor.routing.routing
 import io.ktor.server.engine.embeddedServer
-import io.ktor.server.netty.Netty
+import io.ktor.server.jetty.Jetty
 import io.ktor.http.content.resources
 import io.ktor.http.content.static
 import kotlinx.html.*
@@ -25,7 +25,7 @@ fun HTML.index() {
 }
 
 fun main() {
-    embeddedServer(Netty, port = 8080, host = "127.0.0.1") {
+    embeddedServer(Jetty, port = 8080, host = "127.0.0.1") {
         routing {
             get("/") {
                 call.respondHtml(HttpStatusCode.OK, HTML::index)
