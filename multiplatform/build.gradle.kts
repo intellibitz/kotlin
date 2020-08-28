@@ -21,7 +21,8 @@ buildscript {
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.4.0")
         classpath("com.android.tools.build:gradle:4.0.1")
         classpath("com.google.cloud.tools:appengine-gradle-plugin:2.2.0")
-        classpath("org.akhikhl.gretty:gretty:2.0.0")
+        classpath("gradle.plugin.org.gretty:gretty:3.0.3")
+//        classpath("org.akhikhl.gretty:gretty:2.0.0")
         classpath("org.jetbrains.kotlin:kotlin-serialization:1.4.0")
     }
 }
@@ -40,7 +41,8 @@ plugins {
     kotlin("jvm") version "1.4.0" apply false
     kotlin("js") version "1.4.0" apply false
 //    id("com.google.cloud.tools.appengine") apply (false)
-    id("org.akhikhl.gretty") version ("2.0.0") apply (false)
+    id("org.gretty") version ("3.0.3") apply (false)
+//    id("org.akhikhl.gretty") version ("2.0.0") apply (false)
     kotlin("plugin.serialization") version "1.4.0" apply false
 }
 

@@ -4,7 +4,8 @@ plugins {
 //    id("org.jetbrains.kotlin.jvm") apply(true)
 //    id("org.jetbrains.kotlin.plugin.serialization") apply(true)
     id("com.google.cloud.tools.appengine") apply(true)
-    id("org.akhikhl.gretty") apply(true)
+    id("org.gretty") apply(true)
+//    id("org.akhikhl.gretty") apply(true)
     `java-library`
     application
     war
