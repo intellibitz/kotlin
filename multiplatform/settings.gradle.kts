@@ -17,10 +17,10 @@ pluginManagement {
     }
 }
 rootProject.name = "multiplatform"
+include(":shared", ":server", ":app", ":browser", ":console")
 
-include(":shared")
-include(":server")
-include(":app")
-include(":browser")
-include(":console")
+//include(":server")
+//include(":app")
+//include(":browser")
+//include(":console")
 

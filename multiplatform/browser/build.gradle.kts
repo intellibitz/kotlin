@@ -1,7 +1,7 @@
 plugins {
-    kotlin("js")
+    kotlin("js") apply true
 }
-group = "intellibitz"
+group = "com.intellibitz"
 version = "1.0-SNAPSHOT"
 
 repositories {

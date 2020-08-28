@@ -1,11 +1,10 @@
-import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
-
 plugins {
-    kotlin("jvm")
-    kotlin("plugin.serialization")
+    kotlin("jvm") apply true
+    kotlin("plugin.serialization") apply true
 //    id("org.jetbrains.kotlin.jvm")
-    id("com.google.cloud.tools.appengine")
-    id("org.akhikhl.gretty")
+    id("com.google.cloud.tools.appengine") apply(true)
+    id("org.akhikhl.gretty") apply(true)
+    `java-library`
     application
     war
 }
@@ -27,6 +26,7 @@ repositories {
 dependencies {
     implementation(project(":shared"))
     implementation(kotlin("stdlib-jdk8"))
+    implementation(kotlin("reflect"))
     implementation(kotlin("script-runtime"))
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.9")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-core:1.0.0-RC")
@@ -59,16 +59,8 @@ appengine {
 group = "com.intellibitz"   // Generated output GroupId
 version = "1.0-SNAPSHOT"          // Version in generated output
 
-tasks.withType<KotlinCompile> {
-    kotlinOptions.jvmTarget = "1.8"
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
 }
-val compileKotlin: KotlinCompile by tasks
-compileKotlin.kotlinOptions {
-    jvmTarget = "1.8"
-}
-val compileTestKotlin: KotlinCompile by tasks
-compileTestKotlin.kotlinOptions {
-    jvmTarget = "1.8"
-}
-
 // [END gradle]

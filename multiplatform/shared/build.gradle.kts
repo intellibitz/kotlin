@@ -1,9 +1,9 @@
 plugins {
-    kotlin("multiplatform")
-    id("com.android.library")
-    id("kotlin-android-extensions")
+    kotlin("multiplatform") apply true
+    id("com.android.library") apply(true)
+    id("kotlin-android-extensions") apply(true)
 }
-group = "intellibitz"
+group = "com.intellibitz"
 version = "1.0-SNAPSHOT"
 
 repositories {

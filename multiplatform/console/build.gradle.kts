@@ -1,10 +1,8 @@
-import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
-
 plugins {
-    kotlin("jvm")
+    kotlin("jvm") apply true
     application
 }
-group = "intellibitz"
+group = "com.intellibitz"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -17,9 +15,10 @@ dependencies {
     implementation(project(":shared"))
     testImplementation(kotlin("test-junit"))
 }
-tasks.withType<KotlinCompile> {
-    kotlinOptions.jvmTarget = "1.8"
-}
 application {
     mainClassName = "MainKt"
+}
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
 }

@@ -1,9 +1,9 @@
 plugins {
-    id("com.android.application")
-    kotlin("android")
-    id("kotlin-android-extensions")
+    id("com.android.application") apply(true)
+    kotlin("android") apply true
+    id("kotlin-android-extensions") apply(true)
 }
-group = "intellibitz"
+group = "com.intellibitz"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -19,7 +19,7 @@ dependencies {
     implementation(project(":shared"))
     implementation("androidx.core:core-ktx:1.3.1")
     implementation("androidx.appcompat:appcompat:1.2.0")
-    implementation("androidx.constraintlayout:constraintlayout:1.1.3")
+    implementation("androidx.constraintlayout:constraintlayout:2.0.1")
 }
 android {
     compileSdkVersion(30)
