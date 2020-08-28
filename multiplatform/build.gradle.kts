@@ -39,7 +39,7 @@ plugins {
     kotlin("android") version "1.4.0" apply false
     kotlin("jvm") version "1.4.0" apply false
     kotlin("js") version "1.4.0" apply false
-//    id("com.google.cloud.tools.appengine") version ("2.2.0") apply (false)
+//    id("com.google.cloud.tools.appengine") apply (false)
     id("org.akhikhl.gretty") version ("2.0.0") apply (false)
     kotlin("plugin.serialization") version "1.4.0" apply false
 }
